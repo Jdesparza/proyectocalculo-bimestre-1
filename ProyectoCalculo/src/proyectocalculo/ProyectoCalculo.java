@@ -50,39 +50,57 @@ public class ProyectoCalculo {
             opcion = entrada.nextInt();
             // Estructura lógica condicional para importar las funciones
             if (opcion == 1) {
+                Funciones.funcion1();
             }
 
             if (opcion == 2) {
+                Funciones.funcion2();
             }
 
             if (opcion == 3) {
+                Funciones.funcion3();
             }
 
             if (opcion == 4) {
+                Funciones.funcion4();
             }
 
             if (opcion == 5) {
+                Funciones.funcion5();
             }
 
             if (opcion == 6) {
+                Funciones.funcion6();
             }
 
             if (opcion == 7) {
+                Funciones.funcion7();
             }
 
             if (opcion == 8) {
+                Funciones.funcion8();
             }
 
             if (opcion == 9) {
+                Funciones.funcion9();
             }
 
             if (opcion == 10) {
+                Funciones.funcion10();
             }
 
             if (opcion > 10 || opcion < 0) {
+                 // Presentación de mensajes de error con selección incorrecta
+                System.out.println("=========================================");
+                System.out.printf("%s\n", Mensajes.mensaje_opcioninvalida);
+                System.out.println("=========================================");
             }
 
             if (opcion == 0) {
+                 // Mensaje de salida del Menú al seleccionar 0
+                System.out.println("=========================================");
+                System.out.printf("%s\n", Mensajes.mensaje_g);
+                System.out.println("=========================================");
                 bandera = false;
                 break;
             }
